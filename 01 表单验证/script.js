@@ -34,7 +34,7 @@ function getKeywords(input) {
     return input.placeholder.slice(3);
 }
 
-//验证用户名输入是否正确
+//验证输入是否为空
 function checkRequired(inputArr) {
     inputArr.forEach(function (input) {
         //console.log(input.value);
